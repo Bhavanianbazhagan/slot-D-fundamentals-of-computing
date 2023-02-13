@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "enter a number"
+read a
+echo "enter another number"
+read b
+echo "what do you want to do? (1-4)"
+echo "1) addition"
+echo "2)subtraction"
+echo "3)multiplication"
+echo "4)division"
+echo "enter your choice"
+read choice
+case "$choice" in
+1) echo "the sum is: `expr $a + $b";;
+2) echo "the difference is:`expr $a - $b`";;
+3) echo "the multiplication is: `expr  $a \* $b`";;
+4) echo "the division is: `expr $a / $b`";;
+esac
