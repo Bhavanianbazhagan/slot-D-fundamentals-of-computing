@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "enter mark1"
+read m1
+echo "enter mark2"
+read m2
+echo "enter mark3"
+read m3
+total=`expr m1+m2+m3`
+echo "the total is: "$total
+per=`expr $otal/3`
+echo "percentage is: "$per
+if [$percentage -ge 90]
+then
+echo  "s grade"
+elif [ $percentage -ge 80]
+then 
+echo "A grade"
+elif [$percentage -ge 70]
+then
+echo "B grade"
+elif [$percentage -ge 50 ]
+then
+echo "c grade"
+else
+echo "failed"
+fi
