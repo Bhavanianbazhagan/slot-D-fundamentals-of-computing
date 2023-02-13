@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter the side of the square"
+read a
+echo "entr the lenght and breadth of rectangle"
+read len
+read bred
+echo "enter the radius of the circle"
+read radius
+echo "area of square is:`expr $a \* $a`"
+echo "area of rectangle is:`expr $len \* $bred`"
+echo "area of circle is: `expr 3.14 \* radius \* radius`"
