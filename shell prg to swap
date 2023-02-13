@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter a value of X: "
+read x;
+echo "enter a value of Y: "
+read y
+echo "before: X= $x and Y= $y"
+z=$x
+x=$y
+y=$z
+echo "after: X= $x and Y= $y"
